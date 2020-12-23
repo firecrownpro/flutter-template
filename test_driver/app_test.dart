@@ -33,8 +33,8 @@ void main() {
       // First, tap the button.
       await driver.tap(buttonFinder);
 
-      // Then, verify the counter text is incremented by 1.
-      expect(await driver.getText(counterTextFinder), "1");
+      // Then, verify the counter text is incremented by 2.
+      expect(await driver.getText(counterTextFinder), "2");
     });
   });
 }
