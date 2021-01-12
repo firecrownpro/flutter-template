@@ -1,7 +1,7 @@
 name:  Run unit tests
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ master, develop ]
 jobs:
   unit_test:
     name: Unit test
